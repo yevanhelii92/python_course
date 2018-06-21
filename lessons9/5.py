@@ -1,0 +1,6 @@
+my_iterator = iter([1,2,3])
+print(type(my_iterator))
+print(my_iterator.__next__())
+print(my_iterator.__next__())
+print(my_iterator.__next__())
+print(my_iterator.__next__())

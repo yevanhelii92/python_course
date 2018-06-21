@@ -1,9 +1,9 @@
 def up_letter(a):
-    n = 0
+    i=0
     for i in a:
-        if i.isupper(a) :
-            n += 1
-    return n
+        if i.isupper(a):
+    i += 1
+    return i
 
 
-up_letter("CtujEjEjRJTJEjj")
+print(up_letter("CtujEjEjRJTJEjj"))
